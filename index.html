@@ -17,6 +17,9 @@
 	
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
+	<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.25.0/js/uikit.min.js"></script>
 
 	<!--Initialising fullPage.js-->
@@ -25,6 +28,8 @@
     	$('#fullpage').fullpage({
     		sectionsColor : ['#ccc', '#ccc', '#ccc', '#ccc', '#fff'],
     		slidesNavigation: true,
+    		loopHorizontal: false,
+    		scrollOverflow: true,
     	});
 		});
 	</script>
@@ -42,25 +47,33 @@
 
 	    
 	    <div class="section" data-anchor="slide2">
+	    	<div class="section">
 	    	<div class="left-text">
 	    		<h2>Ditch Discomfort</h2>
 	    		<p>Imma little tpot short n stout here is my handle hereeis my spout.</p>
 	    	</div>
+	    </div>
 
 	    </div>
 
 	    <div class="section" data-anchor="slide3" data-uk-slider>
-	    	<div class="slide">
-	    		<h2>WHERE</h2>
-	    	</div>
-	    	<div class="slide">
-	    		<h2>WEAR</h2>
-	    	</div>
-	    	<div class="slide">
-	    		<h2>WANDER</h2>
-	    	</div>
-	    	<div class="slide">
-	    		<h2>WONDER</h2>
+	    	<div class="app-demo">
+	    		<div class="uk-panel uk-height-viewport where">
+	    			<h2>HOW I WORK</h2>
+	    		</div>
+
+	    		<div class="uk-panel uk-height-viewport where">
+	    			<h2>WHERE</h2>
+	    		</div>
+	    		<div class="uk-panel uk-height-viewport wear">
+	    			<h2>WEAR</h2>
+		    	</div>
+	    		<div class="uk-panel uk-height-viewport wander">
+	    			<h2>WANDER</h2>
+	    		</div>
+	    		<div class="uk-panel uk-height-viewport wonder">
+		    		<h2>WONDER</h2>
+	    		</div>
 	    	</div>
 	    </div>
 
