@@ -48,9 +48,14 @@ p{
 .left-text h2{
 	display: inline;
 }
-	
 
+.slide h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size:5vh;
+	text-align: center;
 
+}
 
 .interest-text h2{
 	text-align: center;

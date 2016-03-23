@@ -23,7 +23,8 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
     	$('#fullpage').fullpage({
-    		sectionsColor : ['#ccc', '#fff']
+    		sectionsColor : ['#ccc', '#ccc', '#ccc', '#ccc', '#fff'],
+    		slidesNavigation: true,
     	});
 		});
 	</script>
@@ -31,7 +32,7 @@
 </head>
 <body>
 	<div id="fullpage">
-	    <div class="section" id = "hero">
+	    <div class="section" data-anchor="slide1" id = "hero">
 	    	<div class="hero-text-container">
 	    		<h1>WANDERWEAR</h1>
 	    		<p class="slogan">wander, don't wonder.</p>
@@ -40,7 +41,7 @@
 	    </div>
 
 	    
-	    <div class="section">
+	    <div class="section" data-anchor="slide2">
 	    	<div class="left-text">
 	    		<h2>Ditch Discomfort</h2>
 	    		<p>Imma little tpot short n stout here is my handle hereeis my spout.</p>
@@ -48,21 +49,29 @@
 
 	    </div>
 
-	    <div class="section">
-	    	<div class="slide">Where</div>
-	    	<div class="slide">Wear</div>
-	    	<div class="slide">Wander</div>
-	    	<div class="slide">Wonder</div>
+	    <div class="section" data-anchor="slide3" data-uk-slider>
+	    	<div class="slide">
+	    		<h2>WHERE</h2>
+	    	</div>
+	    	<div class="slide">
+	    		<h2>WEAR</h2>
+	    	</div>
+	    	<div class="slide">
+	    		<h2>WANDER</h2>
+	    	</div>
+	    	<div class="slide">
+	    		<h2>WONDER</h2>
+	    	</div>
 	    </div>
 
-	    <div class="section">
+	    <div class="section" data-anchor="slide4">
 	    	<div class="left-text">
 		    	<h2>We wonder.</h2>
 		    	<h2>You wander.</h2>
 		    </div>
 	    </div>
 
-	    <div class="section">
+	    <div class="section" data-anchor="slide5">
 	    	<div class="interest-text">
 	    		<h2>Register your interest:</h2>
 	    	</div>
