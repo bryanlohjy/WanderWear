@@ -1,20 +1,58 @@
-.my-container {
-	max-width: : 1200px;
-	margin 0 auto;
-	padding: 10px;
+*{
+	margin:0;
+	padding:0;
 }
 
 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
+	font-size:8vh;
 
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size:5vh;
+
+}
+
+p{
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-size:3vh;
 }
 
 #hero {
 	text-align: center
 }
 
-#hero p {
+.slogan {
 	font-family: 'Merriweather', serif;
-	font-style: italic
+	font-style: italic;
+	font-size:3vh;
+	padding-top: 2vh;
+}
+
+.uk-icon-angle-double-down{
+	font-size: 5vh;
+	position:absolute;
+	bottom:10%;
+}
+
+.left-text{
+	width:40%;
+	margin-left: 5vw;
+}
+
+.left-text h2{
+	display: inline;
+}
+	
+
+
+
+.interest-text h2{
+	text-align: center;
+
 }
