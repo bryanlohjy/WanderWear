@@ -20,7 +20,7 @@ h2{
 p{
 	font-family: 'Merriweather', serif;
 	font-style: italic;
-	font-size:3vh;
+	font-size:2.5vh;
 }
 
 #hero {
@@ -41,12 +41,12 @@ p{
 }
 
 .left-text{
-	width:40%;
+	width:45%;
 	margin-left: 5vw;
 }
 
-.left-text h2{
-	display: inline;
+.center-text{
+	text-align: center;
 }
 
 .slide h2{
