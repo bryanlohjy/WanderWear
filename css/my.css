@@ -3,59 +3,50 @@
 	padding:0;
 }
 
-h1{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size:8vh;
+/*div{
+	outline:2px solid black;
+}*/
 
-}
 
 h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size:5vh;
+	font-size:3em;
 
 }
 
-p{
-	font-family: 'Merriweather', serif;
-	font-style: italic;
-	font-size:2.5vh;
+h3{
+	font-family: 'Montserrat', sans-serif;
+	size:3em;
 }
 
 #hero {
 	text-align: center
 }
 
-.slogan {
-	font-family: 'Merriweather', serif;
-	font-style: italic;
-	font-size:3vh;
-	padding-top: 2vh;
-}
-
 .uk-icon-angle-double-down{
-	font-size: 5vh;
+	font-size: 3em;
 	position:absolute;
 	bottom:10%;
 }
 
 .left-text{
 	width:45%;
-	margin-left: 5vw;
+	margin-left: 2em;
 }
 
-.center-text{
-	text-align: center;
-}
+/*.uk-panel{
+	outline:2px solid red;
+}*/
 
 .slide h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size:5vh;
+	font-size:2em;
 	text-align: center;
 
 }
+
 
 .interest-text h2{
 	text-align: center;
@@ -69,6 +60,106 @@ p{
 
 .app-demo div{
 	background-color: yellow;
-	border:2px solid black;
+	outline:2px solid black;
 	
 }
+
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+
+.imgContainer {
+  overflow: hidden;
+  max-width: 60%;
+
+}
+
+/*
+@media screen and (min-width: 480px){
+	
+}
+
+@media screen and (min-width: 768px){
+	.center-vert{
+	margin-top: 40%;
+	text-align: left;
+	}
+}
+
+@media screen and (min-width: 960px){
+	.center-vert{
+		margin-top: 40%;
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 1220px){
+	.center-vert{
+		margin-top: 43.33%;
+	}
+}
+
+img {
+	max-width: 200px;
+}*/
+
+/* UIKit Custom 7 column grid https://github.com/uikit/uikit/issues/217*/
+/*  .uk-width-1-7 { width: 14.28%; }
+.uk-width-2-7 { width: 28.57%; }
+.uk-width-3-7 { width: 42.85%; }
+.uk-width-4-7 { width: 57.14%; }
+.uk-width-5-7 { width: 71.42%; }
+.uk-width-6-7 { width: 85.71%; }
+
+@media (min-width: @breakpoint-1) {
+    .uk-width-1-7 { width: 14.28%; }
+    .uk-width-2-7 { width: 28.57%; }
+    .uk-width-3-7 { width: 42.85%; }
+    .uk-width-4-7 { width: 57.14%; }
+    .uk-width-5-7 { width: 71.42%; }
+    .uk-width-6-7 { width: 85.71%; }
+}
+
+@media (min-width: @breakpoint-2) {
+    .uk-width-1-7 { width: 14.28%; }
+    .uk-width-2-7 { width: 28.57%; }
+    .uk-width-3-7 { width: 42.85%; }
+    .uk-width-4-7 { width: 57.14%; }
+    .uk-width-5-7 { width: 71.42%; }
+    .uk-width-6-7 { width: 85.71%; }
+}
+
+@media (min-width: @breakpoint-3) {
+    .uk-width-1-7 { width: 14.28%; }
+    .uk-width-2-7 { width: 28.57%; }
+    .uk-width-3-7 { width: 42.85%; }
+    .uk-width-4-7 { width: 57.14%; }
+    .uk-width-5-7 { width: 71.42%; }
+    .uk-width-6-7 { width: 85.71%; }
+}
+
+@media (min-width: @breakpoint-4) {
+    .uk-width-1-7 { width: 14.28%; }
+    .uk-width-2-7 { width: 28.57%; }
+    .uk-width-3-7 { width: 42.85%; }
+    .uk-width-4-7 { width: 57.14%; }
+    .uk-width-5-7 { width: 71.42%; }
+    .uk-width-6-7 { width: 85.71%; }
+}
+
+@media (min-width: @breakpoint-5) {
+    .uk-width-1-7 { width: 14.28%; }
+    .uk-width-2-7 { width: 28.57%; }
+    .uk-width-3-7 { width: 42.85%; }
+    .uk-width-4-7 { width: 57.14%; }
+    .uk-width-5-7 { width: 71.42%; }
+    .uk-width-6-7 { width: 85.71%; }
+}*/
