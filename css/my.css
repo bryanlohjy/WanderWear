@@ -5,13 +5,13 @@
 
 /*div{
 	outline:2px solid black;
-}*/
-
+}
+*/
 
 h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size:3em;
+	font-size:4em;
 
 }
 
@@ -65,51 +65,154 @@ h3{
 }
 
 
-.Aligner {
+.Aligner-left {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+}
+
+.Aligner-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .Aligner-item {
   max-width: 50%;
 }
 
+.demo-left-div{
+	width: 20%;
+	margin-right: 5%
+}
+
+.demo-right-div{
+	margin-left: 15%
+}
+
 
 .imgContainer {
   overflow: hidden;
-  max-width: 60%;
+  max-width: 30%;
 
 }
 
-/*
+/*UIkit small*/
 @media screen and (min-width: 480px){
+	.Aligner-left {
+ 	display: flex;
+ 	align-items: center;
+  	justify-content: center;
+	}
+
+	.Aligner-right {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	}
 	
+	
+	.demo-left-div{
+	width: auto;
+	margin-right: 0;
+	}
+
+	.demo-right-div{
+	width:auto;
+	margin:auto;
+	}
+
 }
 
+/*UIkit medium*/
 @media screen and (min-width: 768px){
-	.center-vert{
-	margin-top: 40%;
-	text-align: left;
+	.Aligner-left {
+ 	display: flex;
+ 	align-items: center;
+  	justify-content: center;
 	}
+
+	.Aligner-right {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	}
+	
+	
+	.demo-left-div{
+	width: auto;
+	margin-right: 0;
+	}
+
+	.demo-right-div{
+	width:auto;
+	margin:auto;
+	}
+
+
 }
 
+/*UIkit large*/
 @media screen and (min-width: 960px){
-	.center-vert{
-		margin-top: 40%;
-		text-align: left;
+
+	.Aligner-left {
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-end;
+	}
+
+	.Aligner-right {
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-start;
+	}
+
+	.Aligner-item {
+	  max-width: 50%;
+	}
+
+	.demo-left-div{
+	width: 50%;
+	margin-right: 5%
+	}
+
+	.demo-right-div{
+	width: 50%;
+	margin-left: 15%
+	}
+
+}
+
+/*UIkit extra large*/
+/*@media screen and (min-width: 1220px){
+
+	.Aligner-left {
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-end;
+	}
+
+	.Aligner-right {
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-start;
+	}
+
+	.Aligner-item {
+	  max-width: 50%;
+	}
+
+	.demo-left-div{
+	width: 50%;
+	margin-right: 5%
+	}
+
+	.demo-right-div{
+	width: 50%;
+	margin-left: 15%
 	}
 }
 
-@media screen and (min-width: 1220px){
-	.center-vert{
-		margin-top: 43.33%;
-	}
-}
-
-img {
-	max-width: 200px;
-}*/
 
 /* UIKit Custom 7 column grid https://github.com/uikit/uikit/issues/217*/
 /*  .uk-width-1-7 { width: 14.28%; }
