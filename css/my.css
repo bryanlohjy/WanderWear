@@ -3,11 +3,11 @@
 	padding:0;
 }
 
-div{
+/*div{
 	outline:2px solid black;
 }
 
-
+*/
 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -49,19 +49,6 @@ p{
 	bottom:5%;
 }
 
-
-.feature{
-	padding-left:10%;
-	padding-right:10%;
-	padding-top:20%;
-	padding-bottom:20%;
-	word-wrap: break-word;
-	margin:auto;
-
-}
-
-
-
 .slide h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -90,6 +77,10 @@ p{
 
 .Aligner-item {
   max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
 }
 
 .Aligner-item-feature {
@@ -127,7 +118,14 @@ p{
 .feature-header{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size:3em;
+	font-size:2em;
+
+}
+
+
+.feature h3 p {
+	word-wrap: normal;
+	margin:auto;
 
 }
 
