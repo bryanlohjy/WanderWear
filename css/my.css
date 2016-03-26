@@ -3,10 +3,10 @@
 	padding:0;
 }
 
-/*div{
+div{
 	outline:2px solid black;
 }
-*/
+
 
 h1{
 	font-family: 'Montserrat', sans-serif;
@@ -51,8 +51,8 @@ p{
 
 
 .feature{
-/*	padding-left:10%;
-	padding-right:10%;*/
+	padding-left:10%;
+	padding-right:10%;
 	padding-top:20%;
 	padding-bottom:20%;
 	word-wrap: break-word;
