@@ -6,6 +6,10 @@
 	<!-- Font used: Montserrat (Sans Serif), Merriweather (Serif)-->
 	<!-- Frameworks used: UIkit + fullPage.js -->
 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:400italic' rel='stylesheet' type='text/css'>
 
@@ -21,6 +25,14 @@
 	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.25.0/js/uikit.js"></script>
+
+
+
+
+
+
+
+
 
 	<!--Initialising fullPage.js-->
 	<script type="text/javascript">
@@ -38,29 +50,35 @@
 <body>
 	<div id="fullpage">
 	<!-- 1 Column -->
-	    <div class="section uk-text-center" data-anchor="slide1">
-	    	<div class=" hero-text-container">
-	    		<h1>WANDERWEAR</h1>
-	    		<p class="slogan">wander, don't wonder.</p>
-	    	</div>
-	    	<div class="uk-icon-angle-double-down uk-icon-medium"></div>
+	    <div class="section uk-align-center" data-anchor="slide1">
+	    		<div class="uk-text-center">
+		    		<h1>WANDERWEAR</h1>
+		    		<p class="slogan">wander, don't wonder.</p>
+		    		<div class="scroll-icon uk-icon-angle-double-down uk-icon-medium">
+			    	</div>
+		    	</div>
+
+
+
 	    </div>
 	    
 	<!-- 2 Column -->
 		<div class="section" data-anchor="slide4">
-			<div class="uk-grid">
-				<div class="uk-width-large-1-2 uk-width-medium-1-1 Aligner-left">
-					<div class="demo-left-div Aligner-item"> 						
+			<div class="uk-grid uk-grid-width-large-1-2 uk-grid-width-medium-1-1">
+				<div class="Aligner-left">
+					<div class="demo-left-div Aligner-item uk-text-center-medium"> 						
 						<h2>WHERE</h2>
 						<h3>Map your journey. Work out the most efficient route.</h3>
 					</div>
 				</div>
 
-				<div class="uk-width-large-1-2 uk-width-medium-1-1 Aligner-right">
+				<div class="Aligner-right">
 					<div class="demo-right-div imgContainer Aligner-item">
 						<img style:"object-fit: cover;" src="assets/square.jpg">
 					</div>
 				</div>
+
+
 			</div>
 		</div>
 

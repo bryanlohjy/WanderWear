@@ -37,16 +37,14 @@ h3{
 }
 
 
-.uk-icon-angle-double-down{
+.scroll-icon{
+	position: fixed;
 	font-size: 3em;
-	position:absolute;
-	bottom:10%;
+	margin:auto;
+	bottom:5%;
 }
 
-.left-text{
-	width:45%;
-	margin-left: 2em;
-}
+
 
 
 
@@ -60,6 +58,12 @@ h3{
 
 
 /*App Demo CSS*/
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .Aligner-left {
   display: flex;
   align-items: center;
@@ -76,13 +80,14 @@ h3{
   max-width: 50%;
 }
 
+
 .demo-left-div{
-	width: 50%;
+	width: auto;
 	margin-right: 15%;
 }
 
 .demo-right-div{
-	width: 50%;
+	width: auto;
 	margin-left: 10%;
 }
 
@@ -95,13 +100,24 @@ h3{
 }
 
 
-
-
-
-
-
 /*UIkit small*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
+	h1{
+	font-size:9vw;
+	}
+
+	h2{
+	font-size:6vw;
+	}
+
+	h3{
+	font-size:3vw;
+	}
+
+	.slogan{
+	font-size:5vw;
+	}
+
 	.Aligner-left {
 	  display: flex;
 	  align-items: center;
@@ -131,6 +147,22 @@ h3{
 
 /*UIkit medium*/
 @media screen and (min-width: 768px) and (max-width:959px) {
+	h1{
+	font-size:9vw;
+	}
+
+	h2{
+	font-size:6vw;
+	}
+
+	h3{
+	font-size:2vw;
+	}
+
+	.slogan{
+	font-size:5vw;
+	}
+
 	.Aligner-left {
  	display: flex;
  	align-items: center;
