@@ -33,6 +33,11 @@ h2{
 
 h3{
 	font-family: 'Montserrat', sans-serif;
+	size:4em;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
 	size:3em;
 }
 
@@ -45,6 +50,15 @@ h3{
 }
 
 
+.feature{
+/*	padding-left:10%;
+	padding-right:10%;*/
+	padding-top:20%;
+	padding-bottom:20%;
+	word-wrap: break-word;
+	margin:auto;
+
+}
 
 
 
@@ -56,8 +70,6 @@ h3{
 
 }
 
-
-/*App Demo CSS*/
 .Aligner {
   display: flex;
   align-items: center;
@@ -80,6 +92,10 @@ h3{
   max-width: 50%;
 }
 
+.Aligner-item-feature {
+  max-width: 80%;
+}
+
 
 .demo-left-div{
 	width: auto;
@@ -92,12 +108,30 @@ h3{
 }
 
 
-
 .imgContainer {
   overflow: hidden;
   min-width: 50%;
 
 }
+
+.feature-bottom-border{
+	border-bottom:2px;
+	border-bottom-style: groove;
+}
+
+.feature-right-border{
+	border-right:2px;
+	border-right-style: groove;
+}
+
+.feature-header{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size:3em;
+
+}
+
+
 
 
 /*UIkit small*/
@@ -137,6 +171,7 @@ h3{
 	.demo-left-div{
 	width: auto;
 	margin-right: 0;
+	padding-bottom: 10%;
 	}
 
 	.demo-right-div{
@@ -179,6 +214,7 @@ h3{
 	.demo-left-div{
 	width: auto;
 	margin-right: 0;
+	padding-bottom: 6%;
 	}
 
 	.demo-right-div{
