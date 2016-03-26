@@ -4,7 +4,7 @@
 
 	<title>WANDERWEAR</title>
 	<!-- Font used: Montserrat (Sans Serif), Merriweather (Serif)-->
-	<!-- Frameworks used: UIkit + fullPage.js -->
+	<!-- Frameworks used: UIkit + fullPage.js + Animate.css + WOW.js-->
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,6 +16,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.25.0/css/uikit.almost-flat.css" />
 	<link rel="stylesheet" type="text/css" href="css/my.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+
+	<script src="js/wow.js"></script>
+	<script type="text/javascript">
+	new WOW().init();
+	</script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 	
@@ -28,12 +34,6 @@
 
 
 
-
-
-
-
-
-
 	<!--Initialising fullPage.js-->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -42,6 +42,7 @@
     		slidesNavigation: true,
     		loopHorizontal: false,
     		scrollOverflow: true,
+    		scrollBar:true
     	});
 		});
 	</script>
@@ -91,13 +92,17 @@
 				</div>
 
 				<div class="Aligner-right">
-					<div class="demo-right-div imgContainer Aligner-item">
+					<div class="wow demo-right-div imgContainer Aligner-item ">
 						<img style:"object-fit: cover;" src="assets/square.jpg">
 					</div>
 				</div>
 
+						
 			</div>
 		</div>
+
+
+
 
 		<div class="section" data-anchor="slide5">
 			<div class="uk-grid uk-grid-width-large-1-2 uk-grid-width-medium-1-1">
