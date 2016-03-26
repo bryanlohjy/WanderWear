@@ -5,9 +5,9 @@
 
 /*div{
 	outline:2px solid black;
-}
+}*/
 
-*/
+
 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -129,8 +129,28 @@ p{
 
 }
 
+.email-form{
+	padding-top: 5%;
+}
 
+.register-text{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size:3em;
 
+}
+
+.social-icons{
+	position: relative;
+	font-size: 1em;
+	padding-top: 5%;
+	margin:auto;
+
+}
+
+.social-icons i{
+	color: black;
+}
 
 /*UIkit small*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
