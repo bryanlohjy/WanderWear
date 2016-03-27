@@ -3,7 +3,7 @@
 		padding:0;
 	}
 
-	/*div{
+/*	div{
 		outline:2px solid black;
 	}
 	*/
@@ -38,6 +38,13 @@
 		size:3em;
 	}
 
+	.demo-left-div h2{
+		line-height: 1em; 
+	}
+	.demo-left-div h3{
+	
+		line-height: 2em; 
+	}
 
 	.scroll-icon{
 		position: absolute;
@@ -259,7 +266,7 @@
 /*UIkit small*/
 @media screen and (min-width: 479px) and (max-width: 767px) {
 	h1{
-	font-size:9vw;
+	font-size:7vw;
 	}
 
 	h2{
@@ -270,6 +277,9 @@
 	font-size:2vw;
 	}
 
+	.slogan{
+	font-size:4vw;
+	}
 	.feature{
 	text-align: center;
 	}
@@ -286,31 +296,27 @@
 		border-right:0;
 	}
 
-	.slogan{
-	font-size:5vw;
-	}
+
 
 	.Aligner-left {
- 	display: flex;
- 	align-items: center;
-  	justify-content: center;
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-end;
 	}
 
 	.Aligner-right {
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-start;
 	}
 	
-
-	
 	.demo-left-div{
-		width: 50%;
+		width: 80%;
 		margin-right: 15%;
 	}
 
 	.demo-right-div{
-		width: 50%;
+		width: auto;
 		margin-left: 5%;
 	}
 
@@ -355,27 +361,28 @@
 	}
 
 	.Aligner-left {
- 	display: flex;
- 	align-items: center;
-  	justify-content: center;
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-end;
 	}
 
 	.Aligner-right {
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
+	  display: flex;
+	  align-items: center;
+	  justify-content: flex-start;
 	}
 	
 	
 	.demo-left-div{
-		width: 50%;
+		width: 80%;
 		margin-right: 15%;
 	}
 
 	.demo-right-div{
-		width: 50%;
+		width: auto;
 		margin-left: 5%;
 	}
+
 }
 
 /*UIkit large*/
