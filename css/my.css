@@ -2,11 +2,11 @@
 		margin:0;
 		padding:0;
 	}
-/*
+
 	div{
 		outline:2px solid black;
 	}
-	*/
+	
 
 	h1{
 		font-family: 'Montserrat', sans-serif;
@@ -102,9 +102,6 @@
 
 	}
 
-	.features-title{
-		text-align: center;
-	}
 
 	.feature-1{
 		border-right:2px;
@@ -201,6 +198,10 @@
 
 	.feature-2{
 		border-right:0;
+	}
+
+	.features-title{
+		padding-top: 10%;
 	}
 
 
