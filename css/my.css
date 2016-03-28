@@ -3,9 +3,9 @@
 		padding:0;
 	}
 
-/*	div{
+	div{
 		outline:2px solid black;
-	}*/
+	}
 	
 
 	h1{
@@ -284,7 +284,7 @@
 	}
 
 	.slogan{
-	font-size:3vh;
+	font-size:2vw;
 	}
 	.feature{
 	text-align: center;
@@ -353,7 +353,7 @@
 	}
 
 	.slogan{
-	font-size:3vh;
+	font-size:2vw;
 	}
 
 	.feature{
