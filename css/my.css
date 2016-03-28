@@ -3,9 +3,9 @@
 		padding:0;
 	}
 
-	div{
+/*	div{
 		outline:2px solid black;
-	}
+	}*/
 	
 
 	h1{
@@ -86,17 +86,17 @@
 
 
 	.demo-left-div{
-		width: 20%;
-		margin-right: 10%;
+		width: 80%;
+		margin-right: 15%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-left: 10%;
+		margin-left: 5%;
 	}
 
 
-	.cover {
+	.imgContainer {
 	  overflow: hidden;
 	  min-width: 60%;
 
@@ -261,7 +261,7 @@
 	max-height: 20%;
 	}
 
-	.cover {
+	.imgContainer {
  	overflow: hidden;
  	max-height: 20%;
 	max-width: 5%;
