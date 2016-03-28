@@ -6,7 +6,11 @@
 	div{
 		outline:2px solid black;
 	}
+<<<<<<< HEAD
 	
+=======
+	*/
+>>>>>>> parent of c43dd41... responsive feature page
 
 	h1{
 		font-family: 'Montserrat', sans-serif;
@@ -196,16 +200,7 @@
 	display:none;
 	}
 
-	.feature-1{
-		border-right:0;
-	}
-
 	.feature-2{
-		border-right:0;
-	}
-
-
-	.feature-3{
 		border-right:0;
 	}
 
@@ -217,7 +212,7 @@
 	.feature-header{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size:5vw;
+	font-size:7vw;
 	}
 
 	.slogan{
@@ -306,12 +301,6 @@
 		border-right:0;
 	}
 
-	.feature-header{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size:4vw;
-	}
-
 
 
 	.Aligner-left {
@@ -371,13 +360,6 @@
 	.feature p{
 	display:none;
 	}
-
-	.feature-header{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size:4vw;
-	}
-
 
 	.feature-2{
 		border-right:0;
