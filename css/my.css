@@ -2,11 +2,11 @@
 		margin:0;
 		padding:0;
 	}
-
+/*
 	div{
 		outline:2px solid black;
 	}
-	
+	*/
 
 	h1{
 		font-family: 'Montserrat', sans-serif;
@@ -143,7 +143,7 @@
 		min-width: 100px;
 		align-items: center;
 		position: relative;
-		padding-top: 7%;
+		padding-top: 9%;
 		margin:auto;
 		align-content: center;
 
@@ -282,6 +282,11 @@
 	h3{
 	font-size:2vw;
 	}
+
+	.scroll-icon{
+		font-size: 4vw;
+	}
+
 
 	.slogan{
 	font-size:2vw;
