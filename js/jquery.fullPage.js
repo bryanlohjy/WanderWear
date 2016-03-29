@@ -103,7 +103,7 @@
         var FP = $.fn.fullpage;
         // Create some defaults, extending them with any options that were provided
         options = $.extend({
-            //
+            //navigation
             menu: false,
             anchors:[],
             lockAnchors: false,
