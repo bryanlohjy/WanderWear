@@ -114,7 +114,11 @@
 	.imgContainer {
 	  overflow: hidden;
 	  min-width: 60%;
+	}
 
+	.app img{
+		display:block;
+		margin: auto;
 	}
 
 
