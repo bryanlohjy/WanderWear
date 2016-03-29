@@ -118,29 +118,31 @@
 	}
 
 
-	.feature{
-		padding-left: 3%;
-		padding-right: 15%;
-	}
 
 	.feature-1{
+		padding-left: 0;
+		padding-right: 15%;
 		border-right:2px;
 		border-right-style: groove;
 	}
 
 	.feature-2{
+		padding-left: 3%;
+		padding-right: 15%;
 		border-right:2px;
 		border-right-style: groove;
 	}
 
 	.feature-3{
+		padding-left: 3%;
+		padding-right: 15%;
 		border-right:2px;
 		border-right-style: groove;
 	}
 
 	.feature-4{
-	/*	border-right:2px;
-		border-right-style: groove;*/
+		padding-left: 3%;
+		padding-right: 0px;
 	}
 
 
