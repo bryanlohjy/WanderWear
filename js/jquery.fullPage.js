@@ -812,6 +812,9 @@
                 nav.find('ul').append(li);
             }
 
+
+            $(SECTION_NAV_SEL).css('display', 'none');
+
             //centering it vertically
             $(SECTION_NAV_SEL).css('margin-top', '-' + ($(SECTION_NAV_SEL).height()/2) + 'px');
 
