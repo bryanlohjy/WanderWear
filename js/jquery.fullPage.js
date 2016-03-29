@@ -650,8 +650,10 @@
             }
 
             //vertical centered of the navigation + active bullet
+            
+
             if(options.navigation){
-                addVerticalNavigation();
+              addVerticalNavigation();
             }
 
             if(options.scrollOverflow){
@@ -785,14 +787,17 @@
         * Creates a vertical navigation bar.
         */
         function addVerticalNavigation(){
+
             $body.append('<div id="' + SECTION_NAV + '"><ul></ul></div>');
             var nav = $(SECTION_NAV_SEL);
 
+
             nav.addClass(function() {
+                for (var i = 3; i < $(SECTION_SEL).length-1; i++)
                 return options.showActiveTooltip ? SHOW_ACTIVE_TOOLTIP + ' ' + options.navigationPosition : options.navigationPosition;
             });
 
-            for (var i = 0; i < $(SECTION_SEL).length; i++) {
+            for (var i = 3; i < $(SECTION_SEL).length-1; i++) {
                 var link = '';
                 if (options.anchors.length) {
                     link = options.anchors[i];
@@ -812,8 +817,20 @@
                 nav.find('ul').append(li);
             }
 
+            // MOD: Display only during demo
+
+            if ($(SECTION_ACTIVE_SEL).slideIndex == 0) {
+                $(SECTION_NAV_SEL).css("display","none");
+
+
+            }
+            else{
+                 $(SECTION_NAV_SEL).css("display","block")
+            }
+
             //centering it vertically
             $(SECTION_NAV_SEL).css('margin-top', '-' + ($(SECTION_NAV_SEL).height()/2) + 'px');
+          
 
             //activating the current active section
             $(SECTION_NAV_SEL).find('li').eq($(SECTION_ACTIVE_SEL).index(SECTION_SEL)).find('a').addClass(ACTIVE);
