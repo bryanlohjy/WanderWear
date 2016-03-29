@@ -5,8 +5,8 @@
 
 /*	div{
 		outline:2px solid black;
-	}
-	*/
+	}*/
+	
 
 	h1{
 		font-family: 'Montserrat', sans-serif;
@@ -102,7 +102,7 @@
 
 	.demo-left-div{
 		width: 80%;
-		margin-right: 15%;
+		margin-right: 10%;
 	}
 
 	.demo-right-div{
@@ -110,16 +110,19 @@
 		margin-left: 5%;
 	}
 
-
-	.imgContainer {
-	  overflow: hidden;
-	  min-width: 60%;
+	.app{
+		padding:auto;
 	}
 
 	.app img{
+		overflow: hidden;
 		display:block;
 		margin: auto;
+		margin-left: 10%;
+		width:auto;
 	}
+
+
 
 
 
@@ -160,7 +163,7 @@
 	}
 
 	.email-form{
-		padding-top: 5%;
+		padding-top: 3%;
 	}
 
 	.social-icons{
@@ -169,7 +172,7 @@
 		min-width: 100px;
 		align-items: center;
 		position: relative;
-		padding-top: 8%;
+		padding-top: 3%;
 		margin:auto;
 		align-content: center;
 
@@ -264,6 +267,13 @@
 
 	.Aligner-item {
 	  max-width: 50%;
+	  height:auto;
+	}
+
+	.app{
+	  max-width: 50%;
+	  height:auto;
+
 	}
 
 	.demo-left-div{
@@ -279,11 +289,17 @@
 	max-height: 20%;
 	}
 
-	.imgContainer {
- 	overflow: hidden;
- 	max-height: 20%;
-	max-width: 5%;
+	.app{
+	padding-top:10%;
 	}
+
+	.app img{
+		overflow: hidden;
+		display:block;
+		margin: auto;
+		width:auto;
+	}
+
 
 	.feature{
 		padding-left: 0;
@@ -367,8 +383,16 @@
 		margin-left: 5%;
 	}
 
+	.app img{
+		overflow: hidden;
+		display:block;
+		margin: auto;
+		margin-left: 10%;
+		width:auto;
+	}
+
 	.social-icons div{
-	font-size: 6vw;
+	font-size: 4vw;
 	}
 
 }
@@ -445,6 +469,20 @@
 		margin-left: 5%;
 	}
 
+	.app img{
+		overflow: hidden;
+		display:block;
+		margin: auto;
+		margin-left: 10%;
+		width:auto;
+	}
+
+
+	.social-icons div{
+		font-size: 4vw;
+	}
+
+
 }
 
 /*UIkit large*/
@@ -466,9 +504,18 @@
 	  max-width: 50%;
 	}
 
+	.app img{
+		overflow: hidden;
+		display:block;
+		margin: auto;
+		margin-left: 10%;
+		width:auto;
+	}
+
+
 	.demo-left-div{
-		width: 50%;
-		margin-right: 15%;
+		width: 80%;
+		margin-right: 10%;
 	}
 
 	.demo-right-div{
