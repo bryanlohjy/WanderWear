@@ -5,8 +5,8 @@
 
 /*	div{
 		outline:2px solid black;
-	}*/
-	
+	}
+	*/
 
 	h1{
 		font-family: 'Montserrat', sans-serif;
@@ -35,7 +35,7 @@
 
 	p{
 		font-family: 'Montserrat', sans-serif;
-		size:3em;
+		size:1em;
 	}
 
 	.description{
@@ -78,13 +78,13 @@
 	.Aligner-left {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-end;
+	  justify-content: flex-start;
 	}
 
 	.Aligner-right {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-start;
+	  justify-content: flex-end;
 	}
 
 	.Aligner-item {
@@ -102,12 +102,12 @@
 
 	.demo-left-div{
 		width: 80%;
-		margin-right: 10%;
+		margin-left: 45%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-left: 5%;
+		margin-right: 45%;
 	}
 
 	.app{
@@ -118,8 +118,8 @@
 		overflow: hidden;
 		display:block;
 		margin: auto;
-		margin-left: 10%;
 		width:auto;
+		max-height:500px;
 	}
 
 
@@ -213,6 +213,12 @@
 	display:none;
 	}
 
+	p{
+		font-family: 'Montserrat', sans-serif;
+		size:1em;
+	}
+
+
 	.feature{
 		text-align: center;
 	}
@@ -278,7 +284,7 @@
 
 	.demo-left-div{
 	width: auto;
-	margin-right: 0;
+	margin: 0;
 	padding: auto;
 	}
 
@@ -325,6 +331,12 @@
 	h3{
 	font-size:2vw;
 	}
+
+	p{
+		font-family: 'Montserrat', sans-serif;
+		size:1em;
+	}
+
 
 	.slogan{
 	font-size:3vw;
@@ -411,6 +423,11 @@
 	font-size:2vw;
 	}
 
+	p{
+		font-family: 'Montserrat', sans-serif;
+		size:1em;
+	}
+
 	.slogan{
 	font-size:3vw;
 	}
@@ -449,33 +466,35 @@
 	.Aligner-left {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-end;
+	  justify-content: flex-start;
 	}
 
 	.Aligner-right {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-start;
+	  justify-content: flex-end;
 	}
 	
 	
 	.demo-left-div{
 		width: 80%;
-		margin-right: 15%;
+		margin-left: 35%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-left: 5%;
+		margin-right: 35%;
 	}
+
 
 	.app img{
 		overflow: hidden;
 		display:block;
 		margin: auto;
-		margin-left: 10%;
 		width:auto;
+		max-height:500px;
 	}
+
 
 
 	.social-icons div{
@@ -491,36 +510,37 @@
 	.Aligner-left {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-end;
+	  justify-content: flex-start;
 	}
 
 	.Aligner-right {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-start;
+	  justify-content: flex-end;
 	}
 
 	.Aligner-item {
 	  max-width: 50%;
 	}
 
+
 	.app img{
 		overflow: hidden;
 		display:block;
 		margin: auto;
-		margin-left: 10%;
 		width:auto;
+		max-height:500px;
 	}
 
 
 	.demo-left-div{
 		width: 80%;
-		margin-right: 10%;
+		margin-left: 45%;
 	}
 
 	.demo-right-div{
-		width: 50%;
-		margin-left: 5%;
+		width: auto;
+		margin-right: 45%;
 	}
 
 
