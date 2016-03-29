@@ -3,10 +3,10 @@
 		padding:0;
 	}
 
-	div{
+/*	div{
 		outline:2px solid black;
 	}
-	
+	*/
 
 	h1{
 		font-family: 'Montserrat', sans-serif;
@@ -38,6 +38,11 @@
 		size:3em;
 	}
 
+	.description{
+		width:75%;
+		margin:auto;
+	}	
+
 	.demo-left-div h2{
 		line-height: 1em; 
 	}
@@ -46,12 +51,22 @@
 		line-height: 2em; 
 	}
 
+
 	.scroll-icon{
 		position: absolute;
-		font-size: 3em;
+		bottom:0%;
+		width:100%;
+		font-size:1em;
+	}	
+
+	.scroll-icon div{
 		margin:auto;
-		bottom:5%;
 	}
+
+	.scroll-icon p{
+	font-size:1em;
+	}
+
 
 
 	.Aligner {
@@ -102,6 +117,11 @@
 
 	}
 
+
+	.feature{
+		padding-left: 3%;
+		padding-right: 15%;
+	}
 
 	.feature-1{
 		border-right:2px;
@@ -219,15 +239,11 @@
 	.slogan{
 	font-size:5vw;
 	}
-	
-	.scroll-icon{
-	position: absolute;
-	font-size: 7vw;
-	margin:auto;
-	bottom:5%;
+
+	.scroll-icon p{
+	font-size:3vw;
 	}
-
-
+	
 	.Aligner-left {
 	  display: flex;
 	  align-items: center;
@@ -263,6 +279,11 @@
 	max-width: 5%;
 	}
 
+	.feature{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	.social-icons div{
 	font-size: 6vw;
 	}
@@ -283,16 +304,19 @@
 	font-size:2vw;
 	}
 
-	.scroll-icon{
-		font-size: 4vw;
+	.slogan{
+	font-size:3vw;
 	}
 
-
-	.slogan{
+	.scroll-icon p{
 	font-size:2vw;
 	}
+
+
 	.feature{
 	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
 	}
 	
 	.feature h3{
@@ -358,12 +382,20 @@
 	}
 
 	.slogan{
+	font-size:3vw;
+	}
+	
+	.scroll-icon p{
 	font-size:2vw;
 	}
 
 	.feature{
 	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
 	}
+
+
 
 	.feature h3{
 	display:none;
@@ -437,6 +469,7 @@
 		width: 50%;
 		margin-left: 5%;
 	}
+
 
 
 }
