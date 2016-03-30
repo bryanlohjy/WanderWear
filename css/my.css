@@ -2,8 +2,8 @@
 		margin:0;
 		padding:0;
 	}
-
-/*	div{
+/*
+	div{
 		outline:2px solid black;
 	}
 	
@@ -202,6 +202,12 @@
 		float: left;
 	    margin-left: 5%;	
 	}
+
+	a:hover, a:visited, a:link, a:active{
+    	text-decoration: none;
+    	color:black;
+	}
+
 
 /*UIkit mini*/
 @media screen and (min-width: 0px) and (max-width: 478px) {
