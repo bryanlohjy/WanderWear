@@ -6,8 +6,8 @@
 /*	div{
 		outline:2px solid black;
 	}
-	*/
-
+	
+*/
 	h1{
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
@@ -65,6 +65,10 @@
 
 	.scroll-icon p{
 	font-size:1em;
+	}
+
+	.2-col-scroll{
+		padding-bottom: 5%;
 	}
 
 
@@ -244,6 +248,10 @@
 		border-right:0;
 	}
 
+	.feature-4{
+		border-right:0;
+	}
+
 
 	.feature-header{
 	font-family: 'Montserrat', sans-serif;
@@ -403,6 +411,8 @@
 		width:auto;
 	}
 
+
+
 	.social-icons div{
 	font-size: 4vw;
 	}
@@ -492,7 +502,7 @@
 		display:block;
 		margin: auto;
 		width:auto;
-		max-height:500px;
+		max-height:300px;
 	}
 
 
@@ -548,37 +558,47 @@
 }
 
 /*UIkit extra large*/
-/*@media screen and (min-width: 1220px){
-
+@media screen and (min-width: 1220px){
 	.Aligner-left {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-end;
+	  justify-content: flex-start;
 	}
 
 	.Aligner-right {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-start;
+	  justify-content: flex-end;
 	}
 
 	.Aligner-item {
 	  max-width: 50%;
 	}
 
+
+	.app img{
+		overflow: hidden;
+		display:block;
+		margin: auto;
+		width:auto;
+		max-height:520px;
+	}
+
+
 	.demo-left-div{
-	width: 50%;
-	margin-right: 5%
+		width: 80%;
+		margin-left: 50%;
 	}
 
 	.demo-right-div{
-	width: 50%;
-	margin-left: 15%
+		width: auto;
+		margin-right: 50%;
 	}
+
 }
 
 
-/* UIKit Custom 7 column grid https://github.com/uikit/uikit/issues/217*/
+/* UIKit Custom 7 column grid https://github.com/uikit/uikit/issues/217
 /*  .uk-width-1-7 { width: 14.28%; }
 .uk-width-2-7 { width: 28.57%; }
 .uk-width-3-7 { width: 42.85%; }
