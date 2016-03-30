@@ -22,19 +22,39 @@
 	z-index: -1;
 }
 
-
-
-
-/*Adding background for the slides
-* --------------------------------------- */
-#slide1{
-    background-image: url(imgs/bg2.jpg);
-    padding: 6% 0 0 0;
+#first .slogan{
+	color:#FDF05A;
 }
-#slide2{
-    background-image: url(imgs/bg5.jpg);
-    padding: 6% 0 0 0;
+
+#first .scroll-icon{
+	color:#FDF05A;
 }
+
+#second h1{
+	color:#FDF05A;
+}
+
+#second .slogan{
+	color:#FDF05A;
+}
+
+#second .scroll-icon{
+	color:#FDF05A;
+}
+
+#last div{
+	color:#FDF05A;
+}
+
+#last h2{
+	color:#FDF05A;
+}
+
+#last p{
+	color:#FDF05A;
+}
+
+
 
 
 	h1{
@@ -171,6 +191,7 @@
 		padding-left: 0;
 		padding-right: 15%;
 		border-right:2px;
+		border-color: #FDF05A;
 		border-right-style: groove;
 	}
 
@@ -178,6 +199,7 @@
 		padding-left: 3%;
 		padding-right: 15%;
 		border-right:2px;
+		border-color: #FDF05A;
 		border-right-style: groove;
 	}
 
@@ -185,12 +207,14 @@
 		padding-left: 3%;
 		padding-right: 15%;
 		border-right:2px;
+		border-color: #FDF05A;
 		border-right-style: groove;
 	}
 
 	.feature-4{
 		padding-left: 3%;
 		padding-right: 0px;
+		border-color: #FDF05A;
 	}
 
 

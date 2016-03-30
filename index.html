@@ -38,7 +38,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
     	$('#fullpage').fullpage({
-    		sectionsColor : ['','', '', '#FDF05A', '#FDF05A','#FDF05A','#FDF05A','#FDF05A','#FDF05A'],
+    		sectionsColor : ['','', '', '#FDF05A', '#FDF05A','#FDF05A','#FDF05A','#FDF05A','#FDF05A',''],
     		slidesNavigation: true,
     		loopHorizontal: false,
     		scrollOverflow: true,
@@ -51,7 +51,7 @@
 <body>
 	<div id="fullpage">
 	
-		<div class="section"  data-anchor="slide1">
+		<div class="section" id="first" data-anchor="slide1">
 			<div >
 				<img id="background" src="assets/bg-1.jpg"/ class="stretch" alt="">
 			</div>
@@ -70,7 +70,7 @@
 	    </div>
 
 	<!-- 1 Column -->
-	    <div class="section" data-anchor="slide2">
+	    <div class="section" id="second" data-anchor="slide2">
 			<div>
 				<img id="background" src="assets/bg-2.jpg"/ class="stretch" alt="">
 			</div>
@@ -286,7 +286,11 @@
 		</div>
 
 
-   	    <div class="section" data-anchor="slide10">
+   	    <div class="section" id="last" data-anchor="slide10">
+			<div >
+				<img id="background" src="assets/bg-4.jpg"/ class="stretch" alt="">
+			</div>
+
 	    		<div class="uk-text-center uk-align-center">
 		    		<h2>STAY UPDATED!</h2>
 		    		<div class="email-form">
