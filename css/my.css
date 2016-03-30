@@ -8,10 +8,51 @@
 	}
 	
 */
+
+
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+
+#section1{
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Defining each sectino background and styles 
+* --------------------------------------- */
+#section1{
+    background-image: url("../assets/mockup-2.png");
+}
+#section2{
+    background-image: url(imgs/bg3.jpg);
+    padding: 6% 0 0 0;
+}
+#section3{
+    background-image: url(imgs/bg4.jpg);
+    padding: 6% 0 0 0;
+}
+#section3 h1{
+    color: #000;
+}
+
+
+/*Adding background for the slides
+* --------------------------------------- */
+#slide1{
+    background-image: url(imgs/bg2.jpg);
+    padding: 6% 0 0 0;
+}
+#slide2{
+    background-image: url(imgs/bg5.jpg);
+    padding: 6% 0 0 0;
+}
+
+
 	h1{
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size:5em;
+		color:#A31E22;
 	}
 
 	.slogan{
@@ -26,16 +67,19 @@
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size:4em;
+		color:#A31E22;
 	}
 
 	h3{
 		font-family: 'Montserrat', sans-serif;
 		size:4em;
+		color:#A31E22;
 	}
 
 	p{
 		font-family: 'Montserrat', sans-serif;
 		size:1em;
+		color:#A31E22;
 	}
 
 	.description{
@@ -104,14 +148,18 @@
 	}
 
 
+	h2 {
+		color:"#A31E22";
+	}
+
 	.demo-left-div{
 		width: 80%;
-		margin-left: 45%;
+		margin-left: 30%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 45%;
+		margin-right: 30%;
 	}
 
 	.app{
@@ -206,6 +254,7 @@
 	a:hover, a:visited, a:link, a:active{
     	text-decoration: none;
     	color:black;
+
 	}
 
 
@@ -494,12 +543,12 @@
 	
 	.demo-left-div{
 		width: 80%;
-		margin-left: 35%;
+		margin-left: 30%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 35%;
+		margin-right: 30%;
 	}
 
 
@@ -551,12 +600,12 @@
 
 	.demo-left-div{
 		width: 80%;
-		margin-left: 45%;
+		margin-left: 30%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 45%;
+		margin-right: 30%;
 	}
 
 
@@ -593,12 +642,12 @@
 
 	.demo-left-div{
 		width: 80%;
-		margin-left: 50%;
+		margin-left: 45%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 50%;
+		margin-right: 45%;
 	}
 
 }
