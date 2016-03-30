@@ -13,27 +13,16 @@
 /* Backgrounds will cover all the section
 * --------------------------------------- */
 
-#section1{
-    background-size: cover;
-    background-attachment: fixed;
+#background{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index: -1;
 }
 
-/* Defining each sectino background and styles 
-* --------------------------------------- */
-#section1{
-    background-image: url("../assets/mockup-2.png");
-}
-#section2{
-    background-image: url(imgs/bg3.jpg);
-    padding: 6% 0 0 0;
-}
-#section3{
-    background-image: url(imgs/bg4.jpg);
-    padding: 6% 0 0 0;
-}
-#section3 h1{
-    color: #000;
-}
+
 
 
 /*Adding background for the slides
@@ -52,7 +41,7 @@
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size:5em;
-		color:#A31E22;
+		color:#202020;
 	}
 
 	.slogan{
@@ -67,19 +56,19 @@
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 700;
 		font-size:4em;
-		color:#A31E22;
+		color:#202020;
 	}
 
 	h3{
 		font-family: 'Montserrat', sans-serif;
 		size:4em;
-		color:#A31E22;
+		color:#202020;
 	}
 
 	p{
 		font-family: 'Montserrat', sans-serif;
 		size:1em;
-		color:#A31E22;
+		color:#202020;
 	}
 
 	.description{
@@ -260,6 +249,12 @@
 
 /*UIkit mini*/
 @media screen and (min-width: 0px) and (max-width: 478px) {
+	.stretch{
+	object-fit: cover;
+	overflow: hidden;
+	}
+
+
 	h1{
 	font-size:9vw;
 	}
@@ -383,6 +378,11 @@
 
 /*UIkit small*/
 @media screen and (min-width: 479px) and (max-width: 767px) {
+	.stretch{
+	object-fit: cover;
+	overflow: hidden;
+	}
+
 	h1{
 	font-size:7vw;
 	}
@@ -476,6 +476,12 @@
 
 /*UIkit medium*/
 @media screen and (min-width: 768px) and (max-width:959px) {
+	.stretch{
+	object-fit: cover;
+	overflow: hidden;
+	}
+
+
 	h1{
 	font-size:9vw;
 	}
@@ -543,12 +549,12 @@
 	
 	.demo-left-div{
 		width: 80%;
-		margin-left: 30%;
+		margin-left: 35%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 30%;
+		margin-right: 35%;
 	}
 
 
@@ -571,6 +577,13 @@
 
 /*UIkit large*/
 @media screen and (min-width: 960px){
+
+	.stretch{
+	object-fit: fill;
+	overflow: hidden;
+	}
+
+
 
 	.Aligner-left {
 	  display: flex;
@@ -614,6 +627,12 @@
 
 /*UIkit extra large*/
 @media screen and (min-width: 1220px){
+	.stretch{
+	object-fit: fill;
+	overflow: hidden;
+	}
+
+
 	.Aligner-left {
 	  display: flex;
 	  align-items: center;
@@ -642,66 +661,13 @@
 
 	.demo-left-div{
 		width: 80%;
-		margin-left: 45%;
+		margin-left: 50%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 45%;
+		margin-right: 50%;
 	}
 
 }
 
-
-/* UIKit Custom 7 column grid https://github.com/uikit/uikit/issues/217
-/*  .uk-width-1-7 { width: 14.28%; }
-.uk-width-2-7 { width: 28.57%; }
-.uk-width-3-7 { width: 42.85%; }
-.uk-width-4-7 { width: 57.14%; }
-.uk-width-5-7 { width: 71.42%; }
-.uk-width-6-7 { width: 85.71%; }
-
-@media (min-width: @breakpoint-1) {
-    .uk-width-1-7 { width: 14.28%; }
-    .uk-width-2-7 { width: 28.57%; }
-    .uk-width-3-7 { width: 42.85%; }
-    .uk-width-4-7 { width: 57.14%; }
-    .uk-width-5-7 { width: 71.42%; }
-    .uk-width-6-7 { width: 85.71%; }
-}
-
-@media (min-width: @breakpoint-2) {
-    .uk-width-1-7 { width: 14.28%; }
-    .uk-width-2-7 { width: 28.57%; }
-    .uk-width-3-7 { width: 42.85%; }
-    .uk-width-4-7 { width: 57.14%; }
-    .uk-width-5-7 { width: 71.42%; }
-    .uk-width-6-7 { width: 85.71%; }
-}
-
-@media (min-width: @breakpoint-3) {
-    .uk-width-1-7 { width: 14.28%; }
-    .uk-width-2-7 { width: 28.57%; }
-    .uk-width-3-7 { width: 42.85%; }
-    .uk-width-4-7 { width: 57.14%; }
-    .uk-width-5-7 { width: 71.42%; }
-    .uk-width-6-7 { width: 85.71%; }
-}
-
-@media (min-width: @breakpoint-4) {
-    .uk-width-1-7 { width: 14.28%; }
-    .uk-width-2-7 { width: 28.57%; }
-    .uk-width-3-7 { width: 42.85%; }
-    .uk-width-4-7 { width: 57.14%; }
-    .uk-width-5-7 { width: 71.42%; }
-    .uk-width-6-7 { width: 85.71%; }
-}
-
-@media (min-width: @breakpoint-5) {
-    .uk-width-1-7 { width: 14.28%; }
-    .uk-width-2-7 { width: 28.57%; }
-    .uk-width-3-7 { width: 42.85%; }
-    .uk-width-4-7 { width: 57.14%; }
-    .uk-width-5-7 { width: 71.42%; }
-    .uk-width-6-7 { width: 85.71%; }
-}*/

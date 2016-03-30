@@ -38,7 +38,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
     	$('#fullpage').fullpage({
-    		sectionsColor : ['#FDF05A','#FDF05A', '#FDF05A', '#FDF05A', '#FDF05A','#FDF05A','#FDF05A','#FDF05A','#FDF05A'],
+    		sectionsColor : ['','', '', '#FDF05A', '#FDF05A','#FDF05A','#FDF05A','#FDF05A','#FDF05A'],
     		slidesNavigation: true,
     		loopHorizontal: false,
     		scrollOverflow: true,
@@ -50,8 +50,11 @@
 </head>
 <body>
 	<div id="fullpage">
-
-		<div class="section" id="section1"  data-anchor="slide1">
+	
+		<div class="section"  data-anchor="slide1">
+			<div >
+				<img id="background" src="assets/bg-1.jpg"/ class="stretch" alt="">
+			</div>
 	    		<div class="uk-text-center uk-align-center">
 		    		<div style="width:70%; margin:auto" >
 		    			<p class="slogan description wow uk-slideshow-fade-in" data-wow-duration="2s">With the unpredictable weather, dressing comfortably can leave you a lot to wonder about...</p>
@@ -68,6 +71,9 @@
 
 	<!-- 1 Column -->
 	    <div class="section" data-anchor="slide2">
+			<div>
+				<img id="background" src="assets/bg-2.jpg"/ class="stretch" alt="">
+			</div>
 	    		<div class="uk-text-center uk-align-center">
 		    		<h1>WANDERWEAR</h1>
 		    		<p class="slogan">wander, don't wonder.</p>
@@ -81,6 +87,9 @@
 	    </div>
 
 	    <div class="section" data-anchor="slide3">
+			<div>
+				<img id="background" src="assets/bg-3.jpg"/ class="stretch" alt="">
+			</div>	    
 	    		<div class="uk-text-center uk-align-center">
 		    		<p class="slogan description">WanderWear combines weather, GPS and user data along with your feedback and clothing to recommend comfortable clothing choices for your encounters with the outside.</p>
 		    	</div>
@@ -93,6 +102,7 @@
 			    </a>
 
 	    </div>
+	
 
 	    
 	<!-- 2 Column -->
@@ -127,7 +137,7 @@
 				<div class="Aligner-left">
 					<div class="demo-left-div Aligner-item uk-text-left"> 						
 						<h2>WEAR?</h2>
-						<h3>Tell me what you're wearing. ;)</h3>
+						<h3>Tell me what you're wearing.</h3>
 					</div>
 				</div>
 
@@ -304,6 +314,7 @@
 			    </div>
 			    </a>
 	    </div>
+
 	</div>
 
 </body>
