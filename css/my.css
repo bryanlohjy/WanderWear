@@ -5,8 +5,8 @@
 /*
 	div{
 		outline:2px solid red;
-	}*/
-	
+	}
+	*/
 
 
 
@@ -632,12 +632,12 @@
 
 	.demo-left-div{
 		width: 80%;
-		margin-left: 37%;
+		margin-left: 32%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 37%;
+		margin-right: 32%;
 	}
 
 
