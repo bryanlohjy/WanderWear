@@ -4,10 +4,10 @@
 	}
 /*
 	div{
-		outline:2px solid black;
-	}
+		outline:2px solid red;
+	}*/
 	
-*/
+
 
 
 /* Backgrounds will cover all the section
@@ -69,6 +69,7 @@
 		font-style: italic;
 		line-height: 2em;
 		font-size:2em;
+		color:#202020;
 	}
 
 
@@ -117,11 +118,13 @@
 	}
 
 	.scroll-icon p{
-	font-size:1em;
+		font-size:1em;
+		color:#202020;
 	}
 
 	.2-col-scroll{
 		padding-bottom: 5%;
+		color:#202020;
 	}
 
 
@@ -161,15 +164,7 @@
 		color:"#A31E22";
 	}
 
-	.demo-left-div{
-		width: 80%;
-		margin-left: 30%;
-	}
 
-	.demo-right-div{
-		width: auto;
-		margin-right: 30%;
-	}
 
 	.app{
 		padding:auto;
@@ -266,7 +261,7 @@
 
 	a:hover, a:visited, a:link, a:active{
     	text-decoration: none;
-    	color:black;
+    	color:#202020;
 
 	}
 
@@ -378,7 +373,7 @@
 	}
 
 	.app{
-	padding-top:10%;
+	padding-top:4%;
 	}
 
 	.app img{
@@ -463,23 +458,23 @@
 	.Aligner-left {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-end;
+	  justify-content: flex-start;
 	}
 
 	.Aligner-right {
 	  display: flex;
 	  align-items: center;
-	  justify-content: flex-start;
+	  justify-content: flex-end;
 	}
 	
 	.demo-left-div{
 		width: 80%;
-		margin-right: 15%;
+		margin-left: 37%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-left: 5%;
+		margin-right: 37%;
 	}
 
 	.app img{
@@ -573,12 +568,12 @@
 	
 	.demo-left-div{
 		width: 80%;
-		margin-left: 35%;
+		margin-left: 37%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 35%;
+		margin-right: 37%;
 	}
 
 
@@ -600,7 +595,7 @@
 }
 
 /*UIkit large*/
-@media screen and (min-width: 960px){
+@media screen and (min-width: 960px) and (max-width:1219px) {
 
 	.stretch{
 	object-fit: fill;
@@ -637,12 +632,12 @@
 
 	.demo-left-div{
 		width: 80%;
-		margin-left: 30%;
+		margin-left: 37%;
 	}
 
 	.demo-right-div{
 		width: auto;
-		margin-right: 30%;
+		margin-right: 37%;
 	}
 
 
@@ -695,3 +690,12 @@
 
 }
 
+/*	.demo-left-div{
+		width: 80%;
+		margin-left: 30%;
+	}
+
+	.demo-right-div{
+		width: auto;
+		margin-right: 30%;
+	}*/
